@@ -50,7 +50,7 @@ resetBoard(){
       <div className="score">
 
 
-  <BootstrapTable keyField='name' data={ data } columns={ columns } rowStyle={ rowStyle2 }
+  <BootstrapTable keyField='player' data={ data } columns={ columns } rowStyle={ rowStyle2 }
   width='120px' bordered={ false }/>
 <div className="reset">
       <>

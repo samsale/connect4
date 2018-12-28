@@ -42,12 +42,12 @@ this.toggle()
           <p>Please enter your names</p>
           <InputGroup>
             <InputGroupAddon addonType="prepend">Player 1</InputGroupAddon>
-              <Input id="player1Name" placeholder="Player 1"/>
+              <Input id="player1Name" defaultValue="Player 1"/>
                 </InputGroup>
                 <br/>
                 <InputGroup>
                   <InputGroupAddon addonType="prepend">Player 2</InputGroupAddon>
-                    <Input id="player2Name" placeholder="Player 2"/>
+                    <Input id="player2Name" defaultValue="Player 2"/>
                       </InputGroup>
           </ModalBody>
           <ModalFooter>
